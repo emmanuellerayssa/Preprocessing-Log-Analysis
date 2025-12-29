@@ -17,7 +17,7 @@ In medical imaging, it's the same thing:
 - Preprocessing = washing, cutting, and organizing ingredients.
 - Analysis / AI / measurements = cooking the meal.
 
-![Preprocessing](preprocessing-medical-images.png)
+![Preprocessing](Images/preprocessing-medical-images.png)
 
 # Preprocessing and Log files
 Log files reflect different states depending on the preprocessing step in progress.
@@ -44,4 +44,4 @@ The main analysis is performed in the <b>Preproc Log Analysis.ipynb</b> notebook
 After running the notebook, graphs will be generated showing the preprocessing states over time.
 These visualizations allow the support team to quickly identify and diagnose any issues that may have occurred.
 
-![Preprocessing_graph](Preproc_states_graph_example.png)
+![Preprocessing_graph](Images/Preproc_states_graph_example.png)
