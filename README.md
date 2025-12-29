@@ -32,3 +32,16 @@ The table below summarizes the different states captured in the log files during
 | <b>PREPROC_END_FAILURE </b>        | This is an "Abnormal Termination" state caused by system errors.   This state is triggered when the process crashes or encounters a critical error that prevents completion.      | Terminal | System Error      |
 | <b>PREPROC_END_INTERRUPT </b>        |This is a "Manual or External Termination" state. Unlike a failure (which is unintentional), an interrupt occurs when the process is stopped by an external force. This typically happens if a user closes the application manually, if the server is shut down, or if the process is cancelled to prioritize a different task.   | Terminal  | Manual Stop      |
 
+# Project Goal
+In this project, the objective is to parse the various log files stored on the customer’s system and analyze them in order to extract and understand the preprocessing states by date and time.
+
+# Installation
+To run this project locally, start by cloning this repository. Ensure that Jupyter Notebook or Visual Studio Code with the Jupyter extension is installed on your machine. 
+
+The logs directory includes sample log files generated for demonstration purposes. Due to data sensitivity, actual customer log files cannot be shared.
+The main analysis is performed in the <b>Preproc Log Analysis.ipynb</b> notebook. Please update the <b>log_folder</b> path to match your local environment.
+
+After running the notebook, graphs will be generated showing the preprocessing states over time.
+These visualizations allow the support team to quickly identify and diagnose any issues that may have occurred.
+
+![Preprocessing_graph](Preproc_states_graph_example.png)
